@@ -21,12 +21,12 @@ export default {
     padding: 5px;
     width: 100%;
     float: left;
-    background:  green;
+    background:  black;
 }
 
 .itemNav {
     margin: 10px;
     text-decoration: none;
-    color: white;
+    color: yellow;
 }
 </style>

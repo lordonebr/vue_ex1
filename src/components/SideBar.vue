@@ -20,7 +20,7 @@ export default {
     padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background: green;
+    background: black;
     margin-right: 10px;
 }
 
@@ -31,6 +31,6 @@ export default {
 
 .itemSideBar {
     text-decoration: none;
-    color: white;
+    color: yellow;
   }
 </style>

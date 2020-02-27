@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Header title="Teste" v-bind:topics="['Topic 1','Topic 2','Topic 3','Topic 4']" />
+    <Header title="Star Wars Movies" v-bind:topics="['Topic 1','Topic 2','Topic 3','Topic 4']" />
     <Menu v-bind:menuItems="['Section 1','Section 2','Section 3','Section 4']" />
+
+    <Container />
 
     <div class="sideBarDiv">
       <SideBar
@@ -15,6 +17,7 @@
 <script>
 import Header from './components/Header.vue'
 import Menu from './components/Menu.vue'
+import Container from './components/Container.vue'
 import SideBar from './components/SideBar.vue'
 
 export default {
@@ -22,6 +25,7 @@ export default {
   components: {
     Header,
     Menu,
+    Container,
     SideBar
   }
 }

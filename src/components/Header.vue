@@ -43,8 +43,8 @@ export default {
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px;
-  background: green;
-  color: white;
+  background: black;
+  color: yellow;
 }
 .mainMenu {
   float: right;
@@ -52,7 +52,7 @@ export default {
   margin-right: 10px;
 }
 .listMenu {
-  border: 3px solid green;
+  border: 3px solid black;
   border-radius: 8px;
   padding: 5px 20px 5px;
 }
@@ -62,7 +62,7 @@ export default {
 }
 .listItemLink {
   text-decoration: none;
-  color: green;
+  color: black;
 }
 .searchInput {
   margin-bottom: 10px;
