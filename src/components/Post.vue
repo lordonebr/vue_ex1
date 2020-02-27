@@ -1,9 +1,9 @@
 <template>
      <div class="postItem">
-        <img class="image" v-bind:src="imageSrc" />
+        <img class="image" v-bind:src="post.imageSrc" />
         <div class="desc">
-            <h5>{{title}}</h5>
-            <p>{{text}}</p>
+            <h5>{{post.title}}</h5>
+            <p>{{post.text}}</p>
         </div>
     </div>
 </template>
@@ -12,9 +12,7 @@
 export default {
     name: "post",
     props: {
-        imageSrc: String,
-        title: String,
-        text: String
+        post: Object
     }
 };
 </script>
